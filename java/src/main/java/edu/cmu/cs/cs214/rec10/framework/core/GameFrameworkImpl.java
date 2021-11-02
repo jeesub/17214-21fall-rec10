@@ -164,4 +164,8 @@ public class GameFrameworkImpl implements GameFramework {
             return "";
         }
     }
+
+    public boolean hasGame(){
+        return currentPlugin != null;
+    }
 }
